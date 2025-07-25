@@ -1,13 +1,14 @@
 {
-  "name": "vue-bank-ts",
+  "name": "mini-bank",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+  "serve": "vue-cli-service serve",
+  "build": "vue-cli-service build",
+  "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "vue": "^3.5.17",
