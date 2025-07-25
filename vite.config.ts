@@ -3,6 +3,6 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  base: '/mini-bank/', // 👈 VERY IMPORTANT
   plugins: [vue()],
+  base: '/mini-bank/' 
 })
